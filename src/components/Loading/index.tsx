@@ -51,7 +51,7 @@ const StyledMessage = styled.div`
 export const Loading: React.FC<LoadingProps> = ({ message }) => (
   <StyledLoading>
     <StyledLogo>
-      <StyledText>JSON</StyledText> Crack
+      <StyledText>Bare vent litt</StyledText> er du grei
     </StyledLogo>
     <StyledMessage>
       {message ?? "Preparing the environment for you..."}

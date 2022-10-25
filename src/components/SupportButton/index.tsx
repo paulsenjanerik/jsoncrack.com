@@ -43,16 +43,16 @@ const StyledSupportButton = styled.a`
 `;
 
 export const SupportButton = () => {
-  if (location.pathname.includes("widget")) return null;
+  if (location.pathname.includes("")) return null;
 
   return (
     <StyledSupportButton
-      href="https://github.com/sponsors/AykutSarac"
+      href=""
       target="_blank"
       rel="me"
     >
-      <StyledText>Support JSON Crack</StyledText>
-      <HiHeart size={25} />
+      <StyledText></StyledText>
+      <HiHeart size={0} />
     </StyledSupportButton>
   );
 };

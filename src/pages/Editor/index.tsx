@@ -27,7 +27,7 @@ const EditorPage: React.FC = () => {
   return (
     <StyledEditorWrapper>
       <Head>
-        <title>Editor | JSON Crack</title>
+        <title>Rediger og presenter JSON her</title>
         <meta
           name="description"
           content="View your JSON data in graphs instantly."

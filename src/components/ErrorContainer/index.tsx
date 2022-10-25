@@ -50,7 +50,7 @@ export const ErrorContainer = ({ hasError }: { hasError: boolean }) => {
           ) : (
             <MdOutlineCheckCircleOutline size={20} />
           )}
-          {hasError ? "Invalid JSON" : "JSON Valid"}
+          {hasError ? "Ugyldig JSON" : "Gyldig JSON. Veldig bra!"}
         </StyledTitle>
       </StyledErrorExpand>
     </StyledErrorWrapper>

@@ -110,7 +110,7 @@ const GraphComponent = ({
 
   return (
     <StyledEditorWrapper isWidget={isWidget}>
-      {loading && <Loading message="Painting graph..." />}
+      {loading && <Loading message="Genererer et stilig kart..." />}
       <TransformWrapper
         maxScale={2}
         minScale={minScale}

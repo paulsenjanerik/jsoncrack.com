@@ -1,38 +1,6 @@
 export const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 // Example taken from https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json
-const sampleJson = Object.freeze({
-  squadName: "Super hero squad",
-  homeTown: "Metro City",
-  formed: 2016,
-  secretBase: "Super tower",
-  active: true,
-  members: [
-    {
-      name: "Molecule Man",
-      age: 29,
-      secretIdentity: "Dan Jukes",
-      powers: ["Radiation resistance", "Turning tiny", "Radiation blast"],
-    },
-    {
-      name: "Madame Uppercut",
-      age: 39,
-      secretIdentity: "Jane Wilson",
-      powers: ["Million tonne punch", "Damage resistance", "Superhuman reflexes"],
-    },
-    {
-      name: "Eternal Flame",
-      age: 1000000,
-      secretIdentity: "Unknown",
-      powers: [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel",
-      ],
-    },
-  ],
-});
+const sampleJson = Object.freeze([{"Navn": "nokrssrv610sp.anyaccess.net", "Beskrivelse": "Serverhost for SP2016", "Kommentar": "EOL 2023", "Aktiv": true, "Versjon": "2012 R2", "OS": "Microsoft Server", "CPU": "2x Intel Xeon Silver 4214 CPU @ 2.20GHz", "RAM": "32 GiB Synchronous DRAM", "Hypervisor": "VMware Virtual Platform", "applikasjoner": [{"Navn": "SharePoint Server", "Beskrivelse": "Samhandlingsplattform fra Microsoft", "Kommentar": "Bør konsolideres og oppgraderes", "Aktiv": true, "Versjon": "2016", "Apps": [{"Navn": "Merking", "Beskrivelse": "Registrering av rørmerker", "Kommentar": "Usikker hvem som har arvet dette og hvorvidt det brukes", "Aktiv": true, "Versjon": "", "Eier": "hms", "Gruppe": "NBS", "Dokumentasjon": false, "Avhengigheter": ["PowerShell"], "Url": "http://nokrssrv610sp:8254/sites/merking"}, {"Navn": "Innkoding", "Beskrivelse": "Innkoding og godkjenning før sap bulk import", "Kommentar": "Sparer penger på å oppgradere denne og få bort Nintex", "Aktiv": true, "Versjon": "", "Eier": "Innkjøp", "Gruppe": "NBS", "Dokumentasjon": false, "Avhengigheter": ["Nintex"], "Url": "http://nokrssrv610sp:8254/sites/innkoding"}, {"Navn": "Kommunikasjonsplattform for skift", "Beskrivelse": "Stopper, meldinger og oppgaver mellom skift", "Kommentar": "Bør kunne byttes ut med teams?", "Aktiv": true, "Versjon": "", "Eier": "Skift", "Gruppe": "komm.platt", "Dokumentasjon": false, "Avhengigheter": ["JavaScript", "CSS", "SharePoint Designer Workflow"], "Url": "http://nokrssrv610sp:38249/sites/skift"}]}, {"Navn": "Internet Information Services", "Beskrivelse": "Webserver", "Kommentar": "Hosting av skjemaer og statisk data", "Aktiv": true, "Versjon": "", "Apps": ["Telefonliste", "Skiftportal", "Personalrapporter", "Analysetabell", "Lommekniv/verktøykasse"]}, {"Navn": "Nintex: Process Management and Workflow Automation", "Beskrivelse": "Low-code-verktøy for automatisering av arbeidsflyter", "Kommentar": "Relativt høy kostnad, og kan byttes ut dersom innkoding oppgraderes. www.nintex.com", "Aktiv": true, "Versjon": "SaSS", "Apps": []}], "scripts": ["10 siste Synergi kommplatt", "Rundelister_kvittering", "SPWarmup"], "lisenser": [{"Navn": "Microsoft Office SharePoint Server 2016 Volume license", "Beskrivelse": "", "Kommentar": "", "Aktiv": true, "Versjon": "2016", "Kost": 50000}, {"Navn": "Windows Server 2016 Datacenter", "Beskrivelse": "", "Kommentar": "", "Aktiv": true, "Versjon": "2016", "Kost": 50000}, {"Navn": "Nintex: Process Management and Workflow Automation", "Beskrivelse": "Low-code-verktøy for automatisering av arbeidsflyter. www.nintex.com", "Kommentar": "Relativt høy kostnad og bør byttes ut dersom innkoding oppgraderes", "Aktiv": true, "Versjon": "SaSS", "Kost": 200000}]}]);
 
 export const defaultJson = JSON.stringify(sampleJson, null, 2);
